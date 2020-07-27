@@ -1,7 +1,6 @@
-echo "# testrrrr" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin git@github.com:testay/testrrrr.git
-git push -u origin master
-                
+```mermaid
+graph TD;
+ A[Click to send a PUT request];
+ class A js-issuable-actions;
+ class A btn-close;
+ click A "./put-destination" "click to PUT"
